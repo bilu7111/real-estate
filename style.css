@@ -1,0 +1,127 @@
+body{
+  display: flow-root;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+h1{
+  display: block;
+  color: #FFFFFF;
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: .8em;
+  text-shadow: #000000 0 0 20px;
+  text-align: center;
+}
+.main-header>h2{
+  display: block;
+  color: #FFFFFF;
+  width: 60%;
+  max-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #FFFFFF;
+  margin-top: 15px;
+  padding: 20px;
+  background: rgba(25, 17, 140, 0.5);
+  font-size: 1.5rem;
+}
+.main-header{
+  padding: 100px 0;
+}
+#front-article{
+  display: flex;
+  background-position: center;
+  background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url("wallpaper.jpg");
+  background-size: cover;
+  justify-content: center;
+  min-height: 740px;
+}
+#welcome-content{
+  margin-top: 0;
+  color: #8a3b03;
+  background: #ea681b linear-gradient(to bottom,hsl(26, 69%, 68%),transparent);
+  display: flow-root;
+  height: 20em;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+
+#about-content{
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100%;
+  background: linear-gradient(hsl(238, 99%, 10%),transparent),url('about-wallpaper.jpg');
+  background-size: cover;
+}
+#contact-content{
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100%;
+  background: linear-gradient(hsl(238, 99%, 10%),transparent),url('contact-wallpaper.jpg');
+  background-size: cover;
+}
+#about-page{
+  font-family: cursive;
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+  min-height: 740px;
+  color: white;
+}
+#menu-bar{
+  display: table;
+  position: relative;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: #11035f;
+  font-size:1em;
+  font-family: cursive;
+}
+#menu-list{
+  margin: 0;
+  padding: 0;
+}
+#menu-list>li{
+  border-right: 1px solid white;
+  padding: 10px;
+  list-style-type: none;
+  float:left;
+  transition: all 0.5s;
+}
+#list-heading{
+  color:white;
+  background: hsla(25,5%,5%,0.5);
+
+}
+#menu-list>li>a{
+  font-weight: bold;
+  border-right: :white 0.5px solid;
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-family: helvetica;
+
+}
+#menu-list>li:hover{
+  cursor: pointer;
+  background:#e6a574;;
+}
+footer{
+  text-align: center;
+  font-weight: bold;
+  font-family: inherit;
+  color: white;
+  background: black;
+  padding: 20px;
+}
+@media only screen and (max-width:600px){
+  body{
+    font-size:12px;
+  }
+  #menu-list>li{
+    padding:5px;
+  }
+}
